@@ -1,0 +1,186 @@
+/* poppins-300 - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: local(''),
+         url('../fonts/poppins-v15-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v15-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('/fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/poppins-v15-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('/fonts/poppins-v15-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/poppins-v15-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-600 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: local(''),
+         url('/fonts/poppins-v15-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/poppins-v15-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+  /* text styles start */
+
+  body{
+    font-family: Poppins;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #FDFAF3;
+
+  }
+h1{
+    font-weight: 600;
+    font-size: 120px;
+    line-height: 140px;
+    /* or 117% */
+    letter-spacing: -0.02em;
+    color: #F59D2A;
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 120px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #11181E
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 75px;
+    text-align: center;
+    color: #11181E
+  }
+
+h4 {
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 150%;
+}
+h5 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+}
+
+  /* text styles end */
+
+  /* header style start */
+ .header{
+    background-color: #24282C;
+   /* position: fixed;
+    top: 0;
+    left 0;
+    width: 100%; */
+  }
+
+  .header_logo-link{
+      color: #D95713; /* ain't work */
+  }
+ul{
+    list-style-type: none;
+}
+
+.header_link{
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+/* identical to box height */
+    /*text-align: center; */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: #F59D2A;
+}
+.header_link:focus, a.header_link:hover {
+    text-decoration: none;
+    outline: 1px;
+    color: #DB810A;
+}
+.header_logo{
+    margin-top: 20px;
+}
+.header_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+
+
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+}
+.header_list{
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header_item{
+margin-right: 100px;
+}
+.header_item:last-child{
+    margin-right: 0px;
+}
+
+/* header style end */
+
+.intro{
+    height: 90vh;
+    /*background: url(/img/intro\ map.png) no-repeat right;
+    background-size: contain;*/
+    background: url(/img/intro\ map\ bg.png) no-repeat right;
+    background-size: contain;
+    background-color: #24282C;
+}
+
+.title_container{
+    margin-left: 100px;
+    max-width: 1200px;
+    padding-top: 320px;
+}
+
+.mission{
+    height: 100vh;
+    padding-top: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.mission_question{
+    margin-bottom: 20px;
+}
+.mission_vector{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 80px;
+}
+.mission_statement{
+    margin-bottom: 80px;
+}
+
+.about_card{
+    height: 100vh;
+}
