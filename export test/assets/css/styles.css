@@ -1,0 +1,307 @@
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #FDFAF3;
+}
+
+/* TEXT STYLES */
+
+/* H1 */
+
+@media (min-width: 360px) {
+  h1 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-weight: 500;
+    /*font-size: 80px;*/
+    font-size: 72px;
+    /*letter-spacing: -0.02em;*/
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-weight: 500;
+    /*font-size: 120px;*/
+    font-size: 96px;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+  }
+}
+
+/* H2 */
+
+@media (min-width: 376px) {
+  h2 {
+    font-weight: 500;
+    /*font-size: 54px;*/
+    font-size: 48px;
+    line-height: 75px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h2 {
+    /*font-size: 80px;*/
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 120px;
+    letter-spacing: -0.02em;
+  }
+}
+
+/* H3 */
+
+@media (min-width: 376px) {
+  h3 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+  }
+}
+
+@media (min-width: 768px) {
+  h3 {
+    font-weight: normal;
+    /*font-size: 36px;*/
+    font-size: 34px;
+    line-height: 150%;
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-weight: 300;
+    /*font-size: 54px;*/
+    font-size: 48px;
+    line-height: 1.25;
+  }
+}
+
+/* h4 */
+
+h4 {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 120%;
+  /*text-transform: uppercase;*/
+  letter-spacing: 1.1;
+}
+
+/* TITLE PAGE MAT' EGO */
+
+.Title_back {
+  height: 90vh;
+  background-color: #24282C;
+}
+
+@media (min-width: 376px) {
+  .Title_back {
+    background: url(../../assets/img/Party3x.png) no-repeat center;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .Title_back {
+    background: url(../../assets/img/intromapbg.png) no-repeat right;
+    background-size: cover;
+  }
+}
+
+@media (min-width: 992px) {
+  .Title_page {
+    margin-left: 24px;
+    margin-right: 24px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Title_page {
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+  }
+}
+
+@media (min-width: 1400px) {
+  .Title_page {
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+  }
+}
+
+.Title_keeper {
+  margin-top: 40vh;
+}
+
+.CTA_cont {
+  position: absolute;
+  bottom: 0;
+  left: 20vw;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 376px) {
+  .CTA_cont {
+    /*margin-top: 100px;*/
+    margin-right: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .CTA_cont {
+    /*margin-top: 50px;*/
+    margin-right: 24px;
+  }
+}
+
+.CTA_text {
+  color: #fdfaf3;
+  margin-right: 24px;
+}
+
+/* Wrapper */
+
+.wrapper {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+/* MISSION CONTAINER */
+
+@media (min-width: 360px) {
+  .text-center.d-xxl-flex.justify-content-xxl-center.align-items-xxl-center.mission_sect {
+    height: 70vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .text-center.d-xxl-flex.justify-content-xxl-center.align-items-xxl-center.mission_sect {
+    /*height: 90vh;*/
+  }
+}
+
+.mission_cont {
+  justify-content: center;
+}
+
+.mission_heading {
+  text-transform: lowercase;
+}
+
+/* LEFT NUM CARD */
+
+@media (min-width: 360px) {
+  .left_num_card {
+    /*height: 100vh;*/
+  }
+}
+
+@media (min-width: 768px) {
+  .left_num_card {
+    /*height: 90vh;*/
+  }
+}
+
+.left_card_num_table_row {
+  text-transform: lowercase;
+}
+
+@media (min-width: 376px) {
+  .left_num_card_text_div {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .left_num_card_text_div {
+    margin-left: 24px;
+  }
+}
+
+img {
+  object-fit: cover;
+}
+
+/* white card */
+
+@media (min-width: 360px) {
+  .white_card {
+    transform: translateX(0px) translateY(0px);
+  }
+}
+
+@media (min-width: 768px) {
+  .white_card {
+    transform: translateX(-32px) translateY(32px);
+  }
+}
+
+@media (min-width: 768px) {
+  .white_card {
+    transform: translateX(32px) translateY(-32px);
+  }
+}
+
+@media (min-width: 992px) {
+  .white_card {
+    transform: translateX(-32px) translateY(32px);
+  }
+}
+
+@media (min-width: 768px) {
+  .white_card_img {
+    width: 660px;
+    height: 440px;
+  }
+}
+
+@media (min-width: 992px) {
+  .white_card_img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 360px) {
+  .white_card_text {
+    padding-top: 48px;
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: 992px) {
+  .white_card_text {
+    padding-top: 100px;
+    font-size: 34px;
+  }
+}
+
+.divider_vec {
+  width: 100%;
+  height: 2px;
+}
+
+.header_divider {
+  width: 64px;
+  height: 3px;
+}
+
+/* tour */
+
+.btn.btn-primary.b_back: hover {
+  background: #fbb894;
+}
+
